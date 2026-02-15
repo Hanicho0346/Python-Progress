@@ -1,0 +1,20 @@
+{
+    "hana": {
+        "username": "hana",
+        "password_hash": "03e692b634fb11004a44bf15e02c624f8005303524260bf7b833face6cdb1050",
+        "is_logged_in": false,
+        "login_attempts": 0
+    },
+    "hey": {
+        "username": "hey",
+        "password_hash": "0ec127ab4e97286cab7accf4267676a7cc4b4c621c5ecc3a04dee5357d10efae",
+        "is_logged_in": false,
+        "login_attempts": 0
+    },
+    "hanicho": {
+        "username": "hanicho",
+        "password_hash": "649b690544b759da4639cd99b2ad964291cdebacd094614ea78403f0ebf9a421",
+        "is_logged_in": false,
+        "login_attempts": 0
+    }
+}
