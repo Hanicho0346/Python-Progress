@@ -1,0 +1,20 @@
+import numpy as np
+my_matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+result=my_matrix*2
+print(f"result: {result}")
+transpose_matrix=my_matrix.T
+print(f"transpose of this mtrix is :{transpose_matrix}")
+sum_of_matrix=my_matrix.sum(axis=0)
+print(f"sum of the clounm is :{sum_of_matrix}")
+mean_of_each_colunm=np.mean(my_matrix,axis=0)
+print(f"mean of each colunm is :{mean_of_each_colunm}")
+standard_devation_of_each_rows=np.std(my_matrix,axis=1).round(2)
+print(f"standard devation :{standard_devation_of_each_rows}")
+mutiple_transpose=my_matrix.dot(my_matrix.T)
+print(f"mutiple of transpose :{mutiple_transpose}")
+sum_of_each_row=np.sum(my_matrix,axis=1)
+print(f"sum of each row :{sum_of_each_row}")
+variance_of_each_colunm=np.var(my_matrix,axis=0)
+print(f"variance of each colunm :{variance_of_each_colunm}")
+multiply_transpose_by_origin=my_matrix.T.dot(my_matrix)
+print(f"multiply transpose by origin :{multiply_transpose_by_origin}")
